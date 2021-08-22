@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Prata', serif;
 }
 
 a {
@@ -13,4 +16,65 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.jost {
+  font-family: 'Jost', sans-serif;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(105.94deg, #3FB095 0.72%, #22846C 69.71%);
+}
+
+.quote-wrapper::before {
+  content: '';
+  background: left no-repeat url("/images/quote-vector-left.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.quote-wrapper::after {
+  content: '';
+  background: right no-repeat url("/images/quote-vector-right.svg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text-green {
+  color: #3FB095;
+}
+
+.bg-green {
+  background-color: #3FB095;
+}
+
+.slider-image-wrapper::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.countdown-wrapper {
+  background-color: #3FB095;
+}
+
+.footer {
+  background: linear-gradient(105.94deg, #3FB095 0.72%, #22846C 69.71%);
+}
+
+.embed-html-wrapper {
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.embed-html-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

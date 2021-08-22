@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+        "paths": {
+            "@/common/*": ["common/*"],
+            "@/layouts/*": ["layouts/*"],
+            "@/modules/*": ["modules/*"],
+            "@/pages/*": ["pages/*"],
+        },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
