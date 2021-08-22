@@ -1,6 +1,4 @@
 import type { NextPage } from "next"
-import Head from "next/head"
-import Image from "next/image"
 
 import Layout from "@/layouts/components/layout.component"
 
@@ -14,8 +12,6 @@ import SectionDatePlace from "./home/date-place.section"
 import SectionMapLocation from "./home/map-location.section"
 import SectionGuestBook from "./home/guest-book.section"
 import SectionWishes from "./home/wishes.section"
-
-import FormGift from "@/modules/form-gift/components/form-gift.component"
 
 import {
   BRIDE,
