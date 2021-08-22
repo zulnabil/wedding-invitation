@@ -7,10 +7,10 @@ import {
   NOMINALS,
   PAYMENT_METHODS,
 } from "../constants/form-gift.constant"
-import TextField from "../../../common/components/inputs/text-field.component"
-import Checkbox from "../../../common/components/inputs/checkbox.component"
-import Radio from "../../../common/components/inputs/radio.component"
-import Button from "../../../common/components/inputs/button.component"
+import TextField from "@/common/components/inputs/text-field.component"
+import Checkbox from "@/common/components/inputs/checkbox.component"
+import Radio from "@/common/components/inputs/radio.component"
+import Button from "@/common/components/inputs/button.component"
 
 const FormGift = () => {
   const [nominalValue, setNominalValue] = useState(NOMINALS[0].value)
