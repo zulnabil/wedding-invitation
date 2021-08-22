@@ -6,6 +6,10 @@ module.exports = {
       maxHeight: {
         100: "28rem",
       },
+      cursor: {
+        grab: "grab",
+        grabbing: "grabbing",
+      },
     },
   },
   variants: {

@@ -54,9 +54,18 @@ a {
   background-color: #3FB095;
 }
 
-.slider-image-wrapper::-webkit-scrollbar {
+.slider-wrapper::-webkit-scrollbar {
   width: 0;
   background: transparent;
+}
+
+.slider-wrapper img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .countdown-wrapper {
