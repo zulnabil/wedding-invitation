@@ -18,7 +18,7 @@ const FormGift = () => {
     PAYMENT_METHODS[0].value
   )
   return (
-    <form className="jost mt-12 flex flex-col gap-x-48 gap-y-8 flex-wrap text-left text-white lg:max-h-100">
+    <form className="jost mt-12 flex flex-col gap-x-48 gap-y-8 flex-wrap text-center sm:text-left text-white lg:max-h-100">
       {FORM_GIFT_FIELDS.map((field) => {
         switch (field.name) {
           case "senderName":
@@ -89,7 +89,7 @@ const FormGift = () => {
         />
         <p className="text-gray-300">All transaction encrypted by SSL</p>
       </div>
-      <Button className="self-start">
+      <Button className="sm:self-start">
         <Image
           alt="icon-gift"
           src="/images/icon-gift.svg"

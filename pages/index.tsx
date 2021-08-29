@@ -28,7 +28,7 @@ import {
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="pb-24">
+      <div className="pb-12 sm:pb-24">
         <SectionAutoPlayVideo
           maleNickname={BRIDE.male.nickName}
           femaleNickname={BRIDE.female.nickName}
