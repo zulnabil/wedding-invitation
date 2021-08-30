@@ -19,13 +19,13 @@ const SectionAutoPlayVideo: FC<AutoPlayProps> = ({
         width={1440}
       />
       <div className="absolute top-0 text-center text-white w-full h-full">
-        <div className="absolute top-10 w-full jost">
+        <div className="absolute top-5 sm:top-10 text-xs sm:text-base w-full jost">
           <p className="font-light">Wedding Invitation</p>
         </div>
-        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-8xl text-white w-full">
+        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-8xl text-4xl text-white w-full">
           {femaleNickname} & {maleNickname}
         </h1>
-        <div className="absolute bottom-24 w-full jost">
+        <div className="absolute bottom-5 sm:bottom-24 text-xs sm:text-base w-full jost">
           <p className="font-light">will be held at</p>
           <p className="font-medium">
             {date}, {time}
