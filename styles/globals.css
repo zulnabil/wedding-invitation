@@ -46,6 +46,12 @@ a {
   height: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .quote-wrapper::before, .quote-wrapper::after {
+    background-size: 25%;
+  }
+}
+
 .text-green {
   color: #3FB095;
 }
