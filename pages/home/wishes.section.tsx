@@ -1,5 +1,4 @@
 import { FC } from "react"
-
 import type { WishesProps } from "./types/wishes.type"
 
 const SectionWishes: FC<WishesProps> = ({ wishes }) => {

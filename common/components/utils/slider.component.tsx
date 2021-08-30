@@ -1,6 +1,7 @@
 import { FC, MouseEvent, useCallback, useRef, useState } from "react"
+import type { SliderProps } from "./types/slider.type"
 
-const Slider: FC = ({ children }) => {
+const Slider: FC<SliderProps> = ({ children, className = "" }) => {
   const sliderReference = useRef<HTMLDivElement>(null)
   const [isScrolling, setScrolling] = useState(false)
   const [clientX, setClientX] = useState(0)
@@ -38,7 +39,7 @@ const Slider: FC = ({ children }) => {
       onMouseMove={handleMouseMove}
       className={`slider-wrapper flex gap-8 w-full whitespace-nowrap overflow-auto ${
         isScrolling ? "cursor-grabbing" : "cursor-grab"
-      }`}
+      } ${className}`}
     >
       {children}
     </div>
