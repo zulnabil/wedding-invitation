@@ -21,7 +21,7 @@ const Radio: FC<RadioProps> = ({
         noDot && checked
           ? "bg-gray-100 border border-white"
           : noDot && !checked
-          ? "bg-gray-300 border border-gray-300"
+          ? "bg-gray-200 border border-gray-200"
           : ""
       } ${wrapperClassName}`}
     >

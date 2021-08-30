@@ -22,6 +22,15 @@ a {
   font-family: 'Jost', sans-serif;
 }
 
+.toggle-checkbox:checked {
+  background-color: white;
+  transform: translate(calc(100%), 0);
+  border-color: #68d391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #68d391;
+}
+
 .bg-green-gradient {
   background: linear-gradient(105.94deg, #3FB095 0.72%, #22846C 69.71%);
 }
