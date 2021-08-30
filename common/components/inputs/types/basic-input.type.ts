@@ -1,7 +1,7 @@
 import { InputHTMLAttributes } from "react"
 
 export interface BasicInputCustomProps {
-  label: string
+  label?: string
   labelClassName?: string
   wrapperClassName?: string
 }
